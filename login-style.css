@@ -1,0 +1,129 @@
+body{
+    background-color: white;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 100% auto;
+    color: black;
+    display: flex;
+    opacity: 0.99;
+    position: fixed;
+    width: 1939px;
+	height: 1108px;
+    left: 50%;
+	transform: translateX(-50%);
+    top: 0px;
+	overflow: hidden;    
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+#background-image {
+    opacity: 0.84;
+    position: fixed;
+	width: 1939px;
+    height: 1108px;
+	left: 50%;
+    transform: translateX(-50%);
+	top: 0px;
+    overflow: visible;
+	}
+
+form{ 
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: transparent;  
+}
+#ASI_FOOD_PANTRY{/*CSUS ASI Food Pantry*/
+		left: 33px;
+		top: 0;
+		position: absolute;
+		width: 603px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: white;
+        background-size: 100% auto;
+    
+}
+fieldset{
+    background-blend-mode: soft-light;
+    align-content:space-around;
+    padding: -5px;
+    margin: 250px;
+    height: 500px;
+    width: 100px;   
+    border-color: black;
+    background-color: rgba(0,86,63,1);
+    position: absolute;
+    left: 650px;
+    right: auto;
+    top: 111px;
+    background-size: 100% auto;   
+    opacity: 0.85;
+    box-sizing:content-box;
+}
+#top-rectangle {
+    opacity: 0.78;
+    fill: rgba(0,86,63,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.top-rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    height: 141px;
+    left: 240px;
+    top: -11px;
+}
+#left-rectangle {
+    opacity: 0.79;
+    fill: rgba(0,86,63,1);
+}
+.left-rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 239px;
+    height: 4px;
+    left: 0px;
+    top: -11px;
+}
+#login-password{
+    color: black;
+    background : white;
+    padding: 0px;
+    margin: 10px;
+    font-size: 18px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+#login-user{
+    color: black;
+    background : white;
+    padding: 0px;
+    margin: 10px;
+    font-size: 18px;
+    align-content: center;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+#login-button{
+    opacity: 0.88;
+    position: absolute;
+    display: block;
+    color: black;
+    background-color:floralwhite;
+    padding: -5px;
+    margin: 10px;
+    font-size: 13px;
+    width: 222px;
+    height: 23px;
+    filter: drop-shadow(30px);
+}
